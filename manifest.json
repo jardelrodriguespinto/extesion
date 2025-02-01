@@ -1,0 +1,12 @@
+{
+    "name": "BaixaTube",
+    "description": "Realiza o download de videos do youtube",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["tabs", "activeTab","windows"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "hello.html",
+      "default_icon": "imagem-extensao.png"
+    }
+  }
