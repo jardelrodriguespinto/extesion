@@ -82,7 +82,7 @@ async function baixar()
 
           //em relação a extensão há um problema como saber 
           //qual a extensão
-          link.setAttribute('download', `video.mp4`);
+          link.setAttribute('download', options === 'audio' ? 'audio.mp3' : 'video.mp4' );
           document.body.appendChild(link);
           link.click();
           link.parentNode.removeChild(link);
